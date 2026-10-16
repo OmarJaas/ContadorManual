@@ -35,7 +35,7 @@
                 Minimum="1"
                 Maximum="20"
                 Increment="1"
-                Value="{Binding Path=Incremeto}"
+                Value="{Binding Path=Incremento}"
                 x:Name="IncrementoStepper"/>
         </HorizontalStackLayout>
 

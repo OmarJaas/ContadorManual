@@ -41,7 +41,7 @@ namespace ContadorManual.Maui.Models
         }
         public void Contar()
         {
-            Conteo = Conteo + 1;
+            Conteo = Conteo + Incremento;
         }
         public void Reiniciar()
         {
@@ -54,6 +54,7 @@ namespace ContadorManual.Maui.Models
             {
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
+        
         }
 
     }
